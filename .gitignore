@@ -1,0 +1,19 @@
+# Virtual environment
+venv/
+# Logs and models output directories
+logs/
+models/
+
+# Common generated data files
+processed_data.csv
+DL_model_comparison.csv
+
+# All PNG/CSV visualizations anywhere in repo
+*.png
+*.csv
+
+# Optional: OS / editor noise (useful)
+.DS_Store
+.vscode/
+__pycache__/
+*.pyc
