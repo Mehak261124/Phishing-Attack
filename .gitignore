@@ -3,6 +3,7 @@ venv/
 # Logs and models output directories
 logs/
 models/
+TrafficLabelling/
 
 # Common generated data files
 processed_data.csv
