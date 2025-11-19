@@ -34,15 +34,17 @@ PHISHING ATTACK/
 │   ├── Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
 │   └── ...
 ├── preprocessed_data/           # Processed datasets
-│   ├── train_data.csv
-│   ├── val_data.csv
+│   ├── feature_names.txt
 │   ├── test_data.csv
-│   └── feature_names.txt
+│   ├── train_data.csv
+│   └── val_data.csv
 ├── plots/                       # Model visualizations
+│   ├── class_balance.png
 │   ├── decision_tree_results.png
 │   ├── random_forest_results.png
-│   ├── svm_results_clean.png
+│   └── svm_results_clean.png
 │   └── xgboost_results.png
+│   └── preprocessing_summary.png
 ├── trained_models/              # Saved model files (.pkl)
 │   ├── decision_tree_model.pkl
 │   ├── random_forest_model.pkl
