@@ -1,15 +1,18 @@
 # Virtual environment
 venv/
 # Logs and models output directories
-logs/
-models/
 TrafficLabelling/
 
 # Common generated data files
-processed_data.csv
-DL_model_comparison.csv
+preprocessed_data/
+preprocessed_data/feature_names.txt
+
+# Trained models - DO NOT COMMIT
+trained_models/
+*.pkl
 
 # All PNG/CSV visualizations anywhere in repo
+plots/
 *.png
 *.csv
 
