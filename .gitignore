@@ -1,23 +1,31 @@
 # Virtual environment
 venv/
-# Logs and models output directories
+
+# Raw dataset directory
 TrafficLabelling/
 
-# Common generated data files
+# Preprocessed data (generated)
 preprocessed_data/
-preprocessed_data/feature_names.txt
+preprocessed_data/*
 
-# Trained models - DO NOT COMMIT
+# Trained models (generated)
 trained_models/
 *.pkl
 
-# All PNG/CSV visualizations anywhere in repo
+# Visualizations
 plots/
 *.png
+*.jpg
+*.jpeg
 *.csv
 
-# Optional: OS / editor noise (useful)
-.DS_Store
-.vscode/
+# Python cache
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Editors / OS files
+.DS_Store
+.vscode/
+.idea/
