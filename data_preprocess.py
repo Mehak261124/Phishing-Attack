@@ -266,7 +266,7 @@ class CICIDSPreprocessor:
 # Example usage:
 if __name__ == "__main__":
     # Initialize preprocessor
-    file_path = "/Users/mehakjain/Desktop/Phishing Attack/TrafficLabelling/Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv"
+    file_path = "TrafficLabelling/Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv"
     
     preprocessor = CICIDSPreprocessor(
         file_path=file_path,

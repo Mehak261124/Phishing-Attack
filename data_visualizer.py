@@ -364,7 +364,7 @@ RESULT
 # Example usage:
 if __name__ == "__main__":
     # Initialize visualizer
-    file_path = "/Users/mehakjain/Desktop/Phishing Attack/TrafficLabelling/Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv"
+    file_path = "TrafficLabelling/Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv"
     
     visualizer = SimpleVisualizer(
         file_path=file_path,
