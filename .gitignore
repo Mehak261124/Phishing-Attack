@@ -1,31 +1,30 @@
 # =======================================
-# Folders/files to IGNORE
-# =======================================
-
 # Virtual environment
+# =======================================
 venv/
 
-# Raw dataset directory
+# ===========================================
+# Raw dataset directories
+# =======================================
 TrafficLabelling/
 
-# Preprocessed data (auto-generated)
-preprocessed_data/
+# =======================================
+# Preprocessed data (generated)
+# =======================================
+preprocessed_binary_10k/
+preprocessed_multiclass_20k/
 
-# Trained models
-trained_models/
-*.pkl
-
+# =======================================
 # Python cache
+# =======================================
 __pycache__/
 *.pyc
 
-# Editor junk
+# =======================================
+# Editor / System junk
+# =======================================
 .DS_Store
 .vscode/
 .idea/
 
-# =======================================
-# ALLOW plots (so README can display them)
-# =======================================
-!plots/
-!plots/*.png
+
