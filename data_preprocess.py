@@ -267,7 +267,6 @@ class CICIDSPreprocessor:
 if __name__ == "__main__":
     # Initialize preprocessor
     file_path = "TrafficLabelling/Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv"
-    
     preprocessor = CICIDSPreprocessor(
         file_path=file_path,
         n_samples=10000,
