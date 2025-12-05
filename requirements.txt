@@ -18,26 +18,12 @@ tqdm==4.66.1
 # Oversampling
 imbalanced-learn==0.12.0
 
-# PyTorch for Apple MPS GPU acceleration
-torch==2.2.0
-torchvision==0.17.0
-torchaudio==2.2.0
-
-# Oversampling
-imbalanced-learn==0.12.0
-
-# PyTorch for Apple MPS GPU acceleration
-torch==2.2.0
-torchvision==0.17.0
-torchaudio==2.2.0
-
-# Oversampling
-imbalanced-learn==0.12.0
-
 # For tabnet 
 pytorch-tabnet
 
-# PyTorch for Apple MPS GPU acceleration
-# torch==2.2.0
-# torchvision==0.17.0
-# torchaudio==2.2.0
+# For deployment
+# pyshark
+# onnx
+# onnxruntime
+# onnxmltools 
+# hummingbird-ml
