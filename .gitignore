@@ -13,6 +13,7 @@ TrafficLabelling/
 # =======================================
 preprocessed_binary_10k/
 preprocessed_multiclass_20k/
+final_preprocessed_data/
 
 # =======================================
 # Python cache
